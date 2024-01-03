@@ -43,5 +43,4 @@ public class BooksController {
     public void deleteBooks(@PathVariable("id") Long id) throws Exception{
         booksService.deleteById(id);
     }
-
 }

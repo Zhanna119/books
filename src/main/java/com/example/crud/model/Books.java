@@ -19,6 +19,9 @@ public class Books {
         this.price = price;
     }
 
+    public Books() {
+    }
+
     public long getId() {
         return id;
     }
