@@ -12,6 +12,13 @@ public class Books {
     private String author;
     private int price;
 
+    public Books(long id, String bookName, String author, int price) {
+        this.id = id;
+        this.bookName = bookName;
+        this.author = author;
+        this.price = price;
+    }
+
     public long getId() {
         return id;
     }
